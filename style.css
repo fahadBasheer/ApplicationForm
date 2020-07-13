@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg{
+    background: no-repeat top center;
+    background-size: cover;
+    height: 230vh;
+    margin-top: -10px !important;
+}
+
+.mainHeading{
+    font-size: 2em;
+    color: darkgray;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.headerImg{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: gray;
+}
+
+.main{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    width: 100%;
+    padding: 0 20px;
+}
+
+.form{
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    margin: 10PX 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+}
+
+.input-marg{
+    padding-left: 35px;
+}
+
+.icon{
+    position: relative;
+    bottom: 2.8%;
+    color: white;
+    font-size: 20px !important;
+    margin-left: 4px;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+::-moz-input-placeholder{
+    color: white;
+}
+
+::-ms-input-placeholder{
+    color: white;
+}
+
+label{
+    color: white;
+    padding: 10px;
+}
+
+.input .button{
+    margin-top: 50px;
+    background: cornflowerblue;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.input .button:hover{
+    background-color: #3d598c;
+}
+
+span{
+    color: white;
+}
+
+table{
+    color: white;
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.tableInput{
+    width: 100%;
+    /* background-color: white !important;
+    color: black !important; */
+    /* border-radius: 5px;
+    padding: 5px !important; */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: white;
+}
+
+.re-button{
+    margin-top: 10px;
+    background: rgb(226, 240, 187);
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.re-button:hover{
+    background-color: rgb(214, 240, 144);
+}
+
+select{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+    margin: 10PX 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+}
+
+.option{
+    color: black;
+}
+
+.marg{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg{
+        height: 250vh;
+    }
+    .hobb{
+      display: flex;
+      width: 100% !important;
+      align-items: center;
+      padding: 2px;
+    }
+  }

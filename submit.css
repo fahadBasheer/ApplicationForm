@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url("images/Contact-Form-background1.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.content, .h2, .link{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    font-size: 2em;
+    margin: 10px;
+    padding: 5px;
+}
+
+.link a{
+    color: black;
+}
+
+.link a:hover{
+    color: cornflowerblue;
+}
