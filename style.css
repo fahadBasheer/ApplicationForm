@@ -74,7 +74,10 @@ input{
 
 .icon{
     position: relative;
-    bottom: 2.8%;
+    bottom: 2.7%;
+    /* background-color: violet; */
+    width: 20px;
+    /* display: inline; */
     color: white;
     font-size: 20px !important;
     margin-left: 4px;
